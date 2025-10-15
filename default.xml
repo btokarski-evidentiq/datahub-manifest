@@ -1,7 +1,7 @@
 <!-- default.xml -->
 <manifest>
   <remote name="eiq" fetch="https://github.com/evidentiq/" />
-  <default revision="develop" remote="evidentiq" sync-j="4" />
+  <default revision="develop" remote="eiq" sync-j="4" />
 
   <project name="eiq/platform-infrastructure" path="100_platform" />
   <project name="eiq/platform-ctms-infrastructure" path="200_platform_ctms" />
