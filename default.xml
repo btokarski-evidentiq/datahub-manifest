@@ -1,0 +1,18 @@
+<!-- default.xml -->
+<manifest>
+  <remote name="eiq" fetch="https://github.com/evidentiq/" />
+  <default revision="develop" remote="evidentiq" sync-j="4" />
+
+  <project name="eiq/platform-infrastructure" path="100_platform" />
+  <project name="eiq/platform-ctms-infrastructure" path="200_platform_ctms" />
+  <project name="eiq/ctms-environment-configurations" path="220_ctms-environment-config" />
+  <project name="eiq/eiq-integrator" path="240_eiq-integrator" />
+  <project name="eiq/e2b-fgk-moozart-configurations" path="260_e2b-fgk-moozart-config" />
+  <project name="eiq/eiq-reporter-infrastructure" path="300_eiq-reporter" />
+  <project name="eiq/eiq-reporter" path="320_eiq-reporter-config" />
+  <project name="eiq/transformer-service-infrastructure" path="400_transformer" />
+  <project name="eiq/e2b-service-infrastructure" path="450_e2b" />
+  <project name="eiq/platform-configuration-e2b-fgk-moozart" path="500_customer-fgk-moozart" />
+  <project name="eiq/platform-configuration-e2b-novo-nordisk" path="520_customer-novo-nordisk" />
+</manifest>
+
